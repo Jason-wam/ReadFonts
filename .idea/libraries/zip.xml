@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="zip">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/zip/fzlth.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzys.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/syst.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerMingKai-W04.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzjzxf.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/cejk.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzss.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/hyksk.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/ChillKai.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerLanKai-Regular.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerMingKai-W05.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzssks.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerJinKai03-W05.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/cexs.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerYuKai-Regular.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerHuaXinTi.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzlty.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/aik.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/ceyh.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/KingHwa_OldSong.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/xwwk.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerXuanSan01JF-W04.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerYunHei-W05.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/fzodzk.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/syht.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/ChillHuoSong_F_Regular.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/HuiwenZhengkai-Regular.zip!/" />
+      <root url="jar://$PROJECT_DIR$/zip/TsangerZhuangYuanKai.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
