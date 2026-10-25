@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>墨伴字体仓库 · 一键导入</title>
+    <style>
+        :root {
+            --bg: #f5f6f8;
+            --card: #ffffff;
+            --text: #1b1c1e;
+            --muted: #6b7079;
+            --line: #e5e7eb;
+            --accent: #3b6ef5;
+            --accent-press: #2f5bd6;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #111214;
+                --card: #1b1c1f;
+                --text: #eceef2;
+                --muted: #9ba1ab;
+                --line: #2a2d33;
+                --accent: #6b95ff;
+                --accent-press: #4f7df0;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 32px 20px 56px;
+            background: var(--bg);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+        }
+
+        main {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .lead {
+            margin: 0 0 24px;
+            color: var(--muted);
+            font-size: 15px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 14px 16px;
+            border: 0;
+            border-radius: 12px;
+            background: var(--accent);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background .18s ease;
+        }
+
+        .btn:active {
+            background: var(--accent-press);
+        }
+
+        .btn.secondary {
+            margin-top: 10px;
+            background: transparent;
+            border: 1px solid var(--line);
+            color: var(--text);
+            font-weight: 500;
+        }
+
+        .hint {
+            margin: 14px 0 0;
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        .index-url {
+            display: block;
+            margin-top: 12px;
+            padding: 10px 12px;
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            color: var(--muted);
+            font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+            font-size: 12px;
+            word-break: break-all;
+        }
+
+        h2 {
+            margin: 0 0 14px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .fonts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+            gap: 12px;
+        }
+
+        .font {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 6px;
+            background: var(--bg);
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .font img {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+
+        .font-name {
+            font-size: 12px;
+            line-height: 1.35;
+            word-break: break-all;
+        }
+
+        .empty,
+        .loading {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        footer {
+            margin-top: 24px;
+            color: var(--muted);
+            font-size: 12px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>墨伴字体仓库</h1>
+        <p class="lead">点击下方按钮，把本仓库索引载入「墨伴」，随后可在「我的 → 字体管理 → 字体仓库」中下载字体。</p>
+
+        <section class="card">
+            <a class="btn" id="open-app" href="#">在墨伴中打开</a>
+            <button class="btn secondary" id="copy-index" type="button">复制索引地址</button>
+            <span class="index-url" id="index-url"></span>
+            <p class="hint">按钮无反应时：请确认已安装墨伴 App，或在 App 的「字体仓库设置」中手动粘贴上方索引地址。GitHub 地址会自动走镜像加速。</p>
+        </section>
+
+        <section class="card">
+            <h2 id="font-title">字体索引</h2>
+            <div class="fonts" id="font-list">
+                <span class="loading">正在载入索引…</span>
+            </div>
+        </section>
+
+        <footer>
+            本仓库字体仅用于个人技术学习，版权归原字体著作权方所有。严禁商用、二次分发、打包售卖或嵌入商业 App。
+        </footer>
+    </main>
+
+    <script>
+        (function () {
+            var INDEX_URL = 'https://raw.githubusercontent.com/Jason-wam/ReadFonts/master/font_index.json';
+            var DEEP_LINK = 'mobanreader://fontrepo?url=' + encodeURIComponent(INDEX_URL);
+
+            document.getElementById('open-app').href = DEEP_LINK;
+            document.getElementById('index-url').textContent = INDEX_URL;
+
+            document.getElementById('copy-index').onclick = function () {
+                var btn = this;
+                var done = function () {
+                    var old = btn.textContent;
+                    btn.textContent = '已复制';
+                    setTimeout(function () { btn.textContent = old; }, 1600);
+                };
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(INDEX_URL).then(done, fallback);
+                } else {
+                    fallback();
+                }
+                function fallback() {
+                    var input = document.createElement('textarea');
+                    input.value = INDEX_URL;
+                    document.body.appendChild(input);
+                    input.select();
+                    try { document.execCommand('copy'); done(); } catch (e) { }
+                    document.body.removeChild(input);
+                }
+            };
+
+            fetch('font_index.json')
+                .then(function (res) { return res.json(); })
+                .then(function (data) {
+                    var items = (data && data.items) || [];
+                    var list = document.getElementById('font-list');
+                    document.getElementById('font-title').textContent = '字体索引（' + items.length + ' 款）';
+                    if (!items.length) {
+                        list.innerHTML = '<span class="empty">索引为空</span>';
+                        return;
+                    }
+                    list.innerHTML = '';
+                    items.slice().sort(function (a, b) {
+                        return (a.index || 0) - (b.index || 0);
+                    }).forEach(function (item) {
+                        var card = document.createElement('div');
+                        card.className = 'font';
+
+                        var img = document.createElement('img');
+                        img.loading = 'lazy';
+                        img.alt = item.fontName || '';
+                        img.src = item.previewImageUrl || '';
+                        img.onerror = function () { this.style.visibility = 'hidden'; };
+
+                        var name = document.createElement('span');
+                        name.className = 'font-name';
+                        name.textContent = item.fontName || item.font || '';
+
+                        card.appendChild(img);
+                        card.appendChild(name);
+                        list.appendChild(card);
+                    });
+                })
+                .catch(function () {
+                    document.getElementById('font-list').innerHTML =
+                        '<span class="empty">索引载入失败，请稍后刷新重试</span>';
+                });
+        })();
+    </script>
+</body>
+
+</html>
