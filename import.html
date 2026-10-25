@@ -193,7 +193,11 @@
     <script>
         (function () {
             var INDEX_URL = 'https://raw.githubusercontent.com/Jason-wam/ReadFonts/master/font_index.json';
-            var DEEP_LINK = 'mobanreader://fontrepo?url=' + encodeURIComponent(INDEX_URL);
+            // Android Chrome 对自定义 scheme 限制较多，优先用 intent:// 唤起；其余环境回退到自定义协议
+            var DEEP_LINK = /Android/i.test(navigator.userAgent)
+                ? 'intent://fontrepo?url=' + encodeURIComponent(INDEX_URL) +
+                '#Intent;scheme=mobanreader;package=com.jason.any.reader;end'
+                : 'mobanreader://fontrepo?url=' + encodeURIComponent(INDEX_URL);
 
             document.getElementById('open-app').href = DEEP_LINK;
             document.getElementById('index-url').textContent = INDEX_URL;
