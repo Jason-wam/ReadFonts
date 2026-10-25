@@ -1,8 +1,8 @@
-﻿# 墨伴字体仓库
+# 墨伴字体仓库
 
 供「墨伴」App 与 Web 阅读页使用的字体索引仓库，收录 28 款中文阅读字体。
 
-> 一键导入：[在墨伴中打开字体仓库](https://cdn.jsdelivr.net/gh/Jason-wam/ReadFonts@master/import.html)（手机端点击后自动把本仓库索引载入 App）
+> 一键导入：[在墨伴中打开字体仓库](https://jason-wam.github.io/ReadFonts/)（手机端点击后自动把本仓库索引载入 App）
 
 ## 目录
 
@@ -90,7 +90,8 @@ mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2
 
 说明：
 
-- GitHub 会过滤 README 中的自定义协议链接，因此请通过 [导入页](https://cdn.jsdelivr.net/gh/Jason-wam/ReadFonts@master/import.html) 点击「在墨伴中打开」。
+- GitHub 会过滤 README 中的自定义协议链接，因此请通过 [导入页](https://jason-wam.github.io/ReadFonts/) 点击「在墨伴中打开」。
+- 导入页同时展示本仓库的字体索引，可直接预览全部字体。
 - 协议仅接受 `http://` 或 `https://` 索引地址；命中后立即写入「字体仓库设置」并跳转字体管理页。
 - 索引中的 GitHub 地址会自动走 `ghfast.top` 镜像加速，也可换成自建地址或 jsDelivr 地址。
 
@@ -137,7 +138,7 @@ mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2
 ```text
 ReadFonts/
 ├─ font_index.json   # 字体索引（App / Web 读取）
-├─ import.html       # 一键导入落地页
+├─ index.html        # 一键导入落地页（GitHub Pages）
 ├─ preview/          # 字体预览图（png / svg）
 └─ zip/              # 字体压缩包（ttf / otf）
 ```
