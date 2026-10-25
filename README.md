@@ -1,6 +1,6 @@
 # 墨伴字体仓库
 
-供「墨伴」App 与 Web 阅读页使用的字体索引仓库，收录 18 款开源 / 免费商用中文字体。
+供「墨伴」App 与 Web 阅读页使用的字体索引仓库，收录 33 款开源 / 免费商用中文字体。
 
 > 一键导入：[在墨伴中打开字体仓库](https://jason-wam.github.io/ReadFonts/)（手机端点击后自动把本仓库索引载入 App）
 
@@ -16,7 +16,7 @@
 
 ## 版权与授权
 
-本仓库已移除全部商用字体（仓耳、方正、汉仪、微信读书 AI 楷），目前仅保留 **OFL 开源授权、公有领域、作者声明免费商用** 的字体。
+本仓库已移除仓耳、汉仪、微信读书 AI 楷等商用字体；方正字体仅保留官方免费商用的四款（黑体、书宋、仿宋、楷体）。目前全部字体均采用 **OFL 开源授权、公有领域、IPA 免费商用，或作者 / 厂商声明免费商用**。
 
 - 各字体的具体授权见下方索引表「授权」列，以原作者的授权声明为准。
 - 允许个人与商业项目免费使用；**禁止单独售卖字体文件本身**。修改与再分发请遵循各字体的原始授权条款（如 OFL 保留字体名规则）。
@@ -24,9 +24,9 @@
 
 ## 字体索引
 
-按字形风格分组，共 18 款。
+按字形风格分组，共 33 款。
 
-### 宋体（4 款）
+### 宋体（6 款）
 
 | # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
 | --- | --- | --- | --- | --- | --- |
@@ -34,40 +34,55 @@
 | 2 | 京华老宋体 | ttf | 35.0 MB | 免费商用（作者声明） | [查看](preview/icon_reader_jinghualaosongti.png) |
 | 3 | 思源屏显臻宋 | ttf | 13.8 MB | OFL | [查看](preview/icon_free_sourcehanserifcnfordisplay.png) |
 | 4 | 汇文明朝体 | ttf | 23.3 MB | 公有领域 | [查看](preview/icon_free_huiwen_mincho.png) |
+| 5 | 方正书宋 | ttf | 2.9 MB | 免费商用（方正声明） | [查看](preview/icon_free_fzssjw_gb1_0.png) |
+| 6 | 猫啃风雅宋 | ttf | 17.0 MB | OFL | [查看](preview/icon_free_maokenfengyasong.png) |
 
-### 仿宋（2 款）
-
-| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
-| --- | --- | --- | --- | --- | --- |
-| 5 | 朱雀仿宋 | ttf | 4.6 MB | OFL | [查看](preview/icon_free_zhuquefangsong_regular.png) |
-| 6 | 寒蝉活仿宋 | ttf | 19.2 MB | OFL | [查看](preview/icon_reader_hanchanhuosongti.png) |
-
-### 黑体（1 款）
+### 仿宋（3 款）
 
 | # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
 | --- | --- | --- | --- | --- | --- |
-| 7 | 思源黑体 | ttf | 14.5 MB | OFL | [查看](preview/icon_reader_siyuanheiti.png) |
+| 7 | 朱雀仿宋 | ttf | 4.6 MB | OFL | [查看](preview/icon_free_zhuquefangsong_regular.png) |
+| 8 | 寒蝉活仿宋 | ttf | 19.2 MB | OFL | [查看](preview/icon_reader_hanchanhuosongti.png) |
+| 9 | 方正仿宋 | ttf | 3.6 MB | 免费商用（方正声明） | [查看](preview/icon_free_fzfsjw_gb1_0.png) |
 
-### 楷体（10 款）
+### 黑体（10 款）
 
 | # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
 | --- | --- | --- | --- | --- | --- |
-| 8 | 霞鹜文楷 GB 粗体 | ttf | 29.1 MB | OFL | [查看](preview/icon_reader_xiawuwenkai.png) |
-| 9 | 霞鹜文楷 Bright | ttf | 12.9 MB | OFL | [查看](preview/icon_free_lxgw_bright_regular.png) |
-| 10 | 霞鹜文楷 Bright 中黑 | ttf | 12.7 MB | OFL | [查看](preview/icon_free_lxgw_bright_medium.png) |
-| 11 | 月星楷 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_regular.png) |
-| 12 | 月星楷 粗体 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_bold.png) |
-| 13 | 玄冬楷书 | otf | 7.8 MB | OFL | [查看](preview/icon_free_xuandongkaishu.png) |
-| 14 | 悠哉字体 | ttf | 14.9 MB | OFL | [查看](preview/icon_free_yozai_regular.png) |
-| 15 | 悠哉字体 中黑 | ttf | 14.5 MB | OFL | [查看](preview/icon_free_yozai_medium.png) |
-| 16 | 寒蝉正楷体 | ttf | 33.4 MB | 政府开放资料授权 | [查看](preview/icon_reader_hanchanzhengkaiti.png) |
-| 17 | 汇文正楷 | ttf | 13.8 MB | 免费商用（作者声明） | [查看](preview/icon_reader_huiwenzhengkai.png) |
+| 10 | 思源黑体 | ttf | 14.5 MB | OFL | [查看](preview/icon_reader_siyuanheiti.png) |
+| 11 | MiSans | ttf | 7.6 MB | 免费商用（小米声明） | [查看](preview/icon_free_misans_regular.png) |
+| 12 | MiSans 粗体 | ttf | 7.4 MB | 免费商用（小米声明） | [查看](preview/icon_free_misans_bold.png) |
+| 13 | 阿里巴巴普惠体 | ttf | 9.3 MB | 免费商用（阿里声明） | [查看](preview/icon_free_alibabapuhuiti_regular.png) |
+| 14 | 阿里巴巴普惠体 粗体 | ttf | 8.9 MB | 免费商用（阿里声明） | [查看](preview/icon_free_alibabapuhuiti_bold.png) |
+| 15 | OPPO Sans | ttf | 9.7 MB | 免费商用（OPPO 声明） | [查看](preview/icon_free_opposans_r.png) |
+| 16 | OPPO Sans 粗体 | ttf | 9.4 MB | 免费商用（OPPO 声明） | [查看](preview/icon_free_opposans_b.png) |
+| 17 | 江城圆体 | ttf | 14.5 MB | OFL | [查看](preview/icon_free_jiangchengyuanti400w.png) |
+| 18 | 方正黑体 | ttf | 3.0 MB | 免费商用（方正声明） | [查看](preview/icon_free_fzhtjw_gb1_0.png) |
+| 19 | 霞鹜晰黑 | ttf | 4.2 MB | IPA（免费商用） | [查看](preview/icon_free_lxgwcleargothic.png) |
+
+### 楷体（13 款）
+
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 20 | 霞鹜文楷 GB 粗体 | ttf | 29.1 MB | OFL | [查看](preview/icon_reader_xiawuwenkai.png) |
+| 21 | 霞鹜文楷 Bright | ttf | 12.9 MB | OFL | [查看](preview/icon_free_lxgw_bright_regular.png) |
+| 22 | 霞鹜文楷 Bright 中黑 | ttf | 12.7 MB | OFL | [查看](preview/icon_free_lxgw_bright_medium.png) |
+| 23 | 月星楷 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_regular.png) |
+| 24 | 月星楷 粗体 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_bold.png) |
+| 25 | 玄冬楷书 | otf | 7.8 MB | OFL | [查看](preview/icon_free_xuandongkaishu.png) |
+| 26 | 悠哉字体 | ttf | 14.9 MB | OFL | [查看](preview/icon_free_yozai_regular.png) |
+| 27 | 悠哉字体 中黑 | ttf | 14.5 MB | OFL | [查看](preview/icon_free_yozai_medium.png) |
+| 28 | 寒蝉正楷体 | ttf | 33.4 MB | 政府开放资料授权 | [查看](preview/icon_reader_hanchanzhengkaiti.png) |
+| 29 | 汇文正楷 | ttf | 13.8 MB | 免费商用（作者声明） | [查看](preview/icon_reader_huiwenzhengkai.png) |
+| 30 | 霞鹜文楷 | ttf | 14.3 MB | OFL | [查看](preview/icon_free_lxgwwenkai_regular.png) |
+| 31 | 霞鹜文楷 粗体 | ttf | 14.4 MB | OFL | [查看](preview/icon_free_lxgwwenkai_bold.png) |
+| 32 | 方正楷体 | ttf | 3.7 MB | 免费商用（方正声明） | [查看](preview/icon_free_fzktjw_gb1_0.png) |
 
 ### 手写（1 款）
 
 | # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
 | --- | --- | --- | --- | --- | --- |
-| 18 | 小赖字体 | ttf | 20.8 MB | OFL | [查看](preview/icon_free_xiaolaisc.png) |
+| 33 | 小赖字体 | ttf | 20.8 MB | OFL | [查看](preview/icon_free_xiaolaisc.png) |
 
 > 序号对应 `font_index.json` 中的 `index` 字段，完整元数据（PostScript 名、SHA256、大小、授权等）见该文件。
 
@@ -133,17 +148,23 @@ mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2
 
 ## 字体来源
 
-新增字体取自 [中文网字计划（chinese-free-web-font-storage）](https://github.com/KonghaYao/chinese-free-web-font-storage)，该仓库只收录允许免费商用的字体。
+第一批字体取自 [中文网字计划（chinese-free-web-font-storage）](https://github.com/KonghaYao/chinese-free-web-font-storage)，第二批取自 [ZFont 免费商用字体库](https://zfont.cn/) 的免费商用合辑，均只收录允许免费商用的字体。
 
-- 霞鹜文楷系列：LXGW / 落霞孤鹜，SIL OFL
-- 月星楷：Moon Stars Kai，SIL OFL
-- 悠哉字体：Yozai，SIL OFL
-- 朱雀仿宋：Zhuque Fangsong，SIL OFL
-- 思源宋体 / 思源黑体 / 思源屏显臻宋：Adobe / Google，SIL OFL
-- 汇文明朝体：公有领域
-- 京华老宋体、汇文正楷：作者声明免费商用
-- 寒蝉活仿宋、寒蝉正楷体：SIL OFL / 政府开放资料授权
-- 小赖字体：SIL OFL
+- **MiSans**：小米，免费商用
+- **阿里巴巴普惠体**：阿里巴巴，免费商用
+- **OPPO Sans**：OPPO，免费商用
+- **方正黑体 / 书宋 / 仿宋 / 楷体**：方正官方免费商用四款
+- **霞鹜文楷 / 霞鹜晰黑**：LXGW / 落霞孤鹜，SIL OFL / IPA
+- **江城圆体**：SIL OFL
+- **猫啃风雅宋**：猫啃网，SIL OFL
+- **月星楷**：Moon Stars Kai，SIL OFL
+- **悠哉字体**：Yozai，SIL OFL
+- **朱雀仿宋**：Zhuque Fangsong，SIL OFL
+- **思源宋体 / 思源黑体 / 思源屏显臻宋**：Adobe / Google，SIL OFL
+- **汇文明朝体**：公有领域
+- **京华老宋体、汇文正楷**：作者声明免费商用
+- **寒蝉活仿宋、寒蝉正楷体**：SIL OFL / 政府开放资料授权
+- **小赖字体**：SIL OFL
 
 ## 目录结构
 
