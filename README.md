@@ -1,78 +1,75 @@
 # 墨伴字体仓库
 
-供「墨伴」App 与 Web 阅读页使用的字体索引仓库，收录 28 款中文阅读字体。
+供「墨伴」App 与 Web 阅读页使用的字体索引仓库，收录 18 款开源 / 免费商用中文字体。
 
 > 一键导入：[在墨伴中打开字体仓库](https://jason-wam.github.io/ReadFonts/)（手机端点击后自动把本仓库索引载入 App）
 
 ## 目录
 
-- [版权声明](#版权声明)
+- [版权与授权](#版权与授权)
 - [字体索引](#字体索引)
 - [一键导入到 App](#一键导入到-app)
 - [手动配置](#手动配置)
 - [索引协议](#索引协议)
+- [字体来源](#字体来源)
 - [目录结构](#目录结构)
 
-## 版权声明
+## 版权与授权
 
-> ⚠️ **重要版权声明**
+本仓库已移除全部商用字体（仓耳、方正、汉仪、微信读书 AI 楷），目前仅保留 **OFL 开源授权、公有领域、作者声明免费商用** 的字体。
 
-本仓库内所有字体文件、预览素材仅用于**个人技术学习**。
-
-所有字体版权归【方正、仓耳】等原字体著作权方所有。
-**严禁任何形式的商用、二次分发、打包售卖、嵌入商业App、付费服务、广告引流等行为。**
-如果你需要使用这些字体进行商业开发，请自行联系字体版权方获取正式授权。
-
-「墨伴」App 不内置任何字体文件，字体由用户自行配置本仓库后按需下载，仓库地址与字体文件均不随 App 分发。
+- 各字体的具体授权见下方索引表「授权」列，以原作者的授权声明为准。
+- 允许个人与商业项目免费使用；**禁止单独售卖字体文件，禁止传播修改版字形**。
+- 如果你使用的是 2026-10 之前的旧版仓库，建议在 App「字体管理 → 字体仓库」中删除已下载的商用字体缓存。
 
 ## 字体索引
 
-按字体家族分组，共 28 款。文件为 zip 压缩包，App 下载后自动解压取其中的 ttf/otf。
+按字形风格分组，共 18 款。
 
-### 仓耳（12 款）
+### 宋体（4 款）
 
-| # | 字体 | 格式 | 解压后大小 | 预览 |
-| --- | --- | --- | --- | --- |
-| 1 | 仓耳今楷 04 | ttf | 24.5 MB | [查看](preview/icon_reader_cangerjinkai04.png) |
-| 2 | 仓耳华新 | ttf | 17.1 MB | [查看](preview/icon_reader_cangerhuaxin.png) |
-| 4 | 仓耳今楷 05 | ttf | 18.4 MB | [查看](preview/icon_reader_cangerjinkai05.png) |
-| 7 | 仓耳玄三 04 | ttf | 5.0 MB | [查看](preview/icon_reader_cangerxuansan04.png) |
-| 10 | 仓耳玄三 05 | ttf | 28.1 MB | [查看](preview/icon_reader_cangerxuansan05.png) |
-| 13 | 仓耳云黑 04 | ttf | 13.0 MB | [查看](preview/icon_reader_yunhei04.png) |
-| 16 | 仓耳云黑 05 | ttf | 7.4 MB | [查看](preview/icon_reader_yunhei05.png) |
-| 19 | 仓耳明楷 04 | ttf | 3.9 MB | [查看](preview/icon_reader_cangermingkai04.png) |
-| 22 | 仓耳明楷 05 | ttf | 3.9 MB | [查看](preview/icon_reader_cangermingkai05.png) |
-| 25 | 仓耳状元楷 | ttf | 7.1 MB | [查看](preview/icon_reader_cangerzhuangyuankai.png) |
-| 26 | 仓耳玉楷 | ttf | 4.7 MB | [查看](preview/icon_reader_cangeryukai.png) |
-| 28 | 仓耳兰楷 | ttf | 4.5 MB | [查看](preview/icon_reader_cangerlankai.png) |
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 思源宋体 | otf | 10.8 MB | OFL | [查看](preview/icon_reader_siyuansongti.png) |
+| 2 | 京华老宋体 | ttf | 35.0 MB | 免费商用（作者声明） | [查看](preview/icon_reader_jinghualaosongti.png) |
+| 3 | 思源屏显臻宋 | ttf | 13.8 MB | OFL | [查看](preview/icon_free_sourcehanserifcnfordisplay.png) |
+| 4 | 汇文明朝体 | ttf | 23.3 MB | 公有领域 | [查看](preview/icon_free_huiwen_mincho.png) |
 
-### 方正（7 款）
+### 仿宋（2 款）
 
-| # | 字体 | 格式 | 解压后大小 | 预览 |
-| --- | --- | --- | --- | --- |
-| 9 | 方正宋三 | ttf | 24.4 MB | [查看](preview/icon_reader_fangzhengsongsan.png) |
-| 12 | 方正悠宋 | ttf | 23.6 MB | [查看](preview/icon_reader_fangzhengyousong.png) |
-| 15 | 方正兰亭黑 | ttf | 17.1 MB | [查看](preview/icon_reader_fangzhenglantinghei.png) |
-| 18 | 方正兰亭圆 | ttf | 18.4 MB | [查看](preview/icon_reader_fangzhenglantingyuan.png) |
-| 21 | 方正盛世楷书 | ttf | 27.8 MB | [查看](preview/icon_reader_fangzhengshengshikaishu.png) |
-| 24 | 方正聚珍新仿 | ttf | 30.1 MB | [查看](preview/icon_reader_fangzhengjuzhenxinfang.png) |
-| 27 | 方正欧蝶正楷 | ttf | 4.8 MB | [查看](preview/icon_reader_fangzhengoudiezhengkai.png) |
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 5 | 朱雀仿宋 | ttf | 4.6 MB | OFL | [查看](preview/icon_free_zhuquefangsong_regular.png) |
+| 6 | 寒蝉活仿宋 | ttf | 19.2 MB | OFL | [查看](preview/icon_reader_hanchanhuosongti.png) |
 
-### 其他（9 款）
+### 黑体（1 款）
 
-| # | 字体 | 格式 | 解压后大小 | 预览 |
-| --- | --- | --- | --- | --- |
-| 3 | 思源宋体 | ttf | 19.8 MB | [查看](preview/icon_reader_siyuansongti.png) |
-| 5 | 京华老宋体 | ttf | 35.0 MB | [查看](preview/icon_reader_jinghualaosongti.png) |
-| 6 | 思源黑体 | ttf | 14.5 MB | [查看](preview/icon_reader_siyuanheiti.png) |
-| 8 | 寒蝉活仿宋 | otf | 32.2 MB | [查看](preview/icon_reader_hanchanhuosongti.png) |
-| 11 | 汉仪空山楷 | ttf | 30.3 MB | [查看](preview/icon_reader_hanyikongshankai.png) |
-| 14 | 汇文正楷 | ttf | 13.8 MB | [查看](preview/icon_reader_huiwenzhengkai.png) |
-| 17 | 寒蝉正楷体 | ttf | 33.4 MB | [查看](preview/icon_reader_hanchanzhengkaiti.png) |
-| 20 | 霞鹜文楷 | ttf | 29.1 MB | [查看](preview/icon_reader_xiawuwenkai.png) |
-| 23 | AI楷 | ttf | 29.2 MB | [查看](preview/icon_reader_aikai.png) |
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 7 | 思源黑体 | ttf | 14.5 MB | OFL | [查看](preview/icon_reader_siyuanheiti.png) |
 
-> 序号对应 `font_index.json` 中的 `index` 字段，完整元数据（PostScript 名、SHA256、大小等）见该文件。
+### 楷体（10 款）
+
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 8 | 霞鹜文楷 GB 粗体 | ttf | 29.1 MB | OFL | [查看](preview/icon_reader_xiawuwenkai.png) |
+| 9 | 霞鹜文楷 Bright | ttf | 12.9 MB | OFL | [查看](preview/icon_free_lxgw_bright_regular.png) |
+| 10 | 霞鹜文楷 Bright 中黑 | ttf | 12.7 MB | OFL | [查看](preview/icon_free_lxgw_bright_medium.png) |
+| 11 | 月星楷 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_regular.png) |
+| 12 | 月星楷 粗体 | ttf | 16.2 MB | OFL | [查看](preview/icon_free_moonstarskai_bold.png) |
+| 13 | 玄冬楷书 | otf | 7.8 MB | OFL | [查看](preview/icon_free_xuandongkaishu.png) |
+| 14 | 悠哉字体 | ttf | 14.9 MB | OFL | [查看](preview/icon_free_yozai_regular.png) |
+| 15 | 悠哉字体 中黑 | ttf | 14.5 MB | OFL | [查看](preview/icon_free_yozai_medium.png) |
+| 16 | 寒蝉正楷体 | ttf | 33.4 MB | 政府开放资料授权 | [查看](preview/icon_reader_hanchanzhengkaiti.png) |
+| 17 | 汇文正楷 | ttf | 13.8 MB | 免费商用（作者声明） | [查看](preview/icon_reader_huiwenzhengkai.png) |
+
+### 手写（1 款）
+
+| # | 字体 | 格式 | 解压后大小 | 授权 | 预览 |
+| --- | --- | --- | --- | --- | --- |
+| 18 | 小赖字体 | ttf | 20.8 MB | OFL | [查看](preview/icon_free_xiaolaisc.png) |
+
+> 序号对应 `font_index.json` 中的 `index` 字段，完整元数据（PostScript 名、SHA256、大小、授权等）见该文件。
 
 ## 一键导入到 App
 
@@ -82,7 +79,7 @@
 mobanreader://fontrepo?url=<URL 编码后的 font_index.json 地址>
 ```
 
-本仓库的完整链接（可直接在手机浏览器地址栏打开，或从下面的导入页点击按钮）：
+本仓库的完整链接（可直接在手机浏览器地址栏打开，或从导入页点击按钮）：
 
 ```text
 mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2FReadFonts%2Fmaster%2Ffont_index.json
@@ -93,7 +90,7 @@ mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2
 - GitHub 会过滤 README 中的自定义协议链接，因此请通过 [导入页](https://jason-wam.github.io/ReadFonts/) 点击「在墨伴中打开」。
 - 导入页同时展示本仓库的字体索引，可直接预览全部字体。
 - 协议仅接受 `http://` 或 `https://` 索引地址；命中后立即写入「字体仓库设置」并跳转字体管理页。
-- 索引中的 GitHub 地址会自动走 `ghfast.top` 镜像加速，也可换成自建地址或 jsDelivr 地址。
+- 索引中的 GitHub 地址会自动走镜像加速，也可换成自建地址或 jsDelivr 地址。
 
 ## 手动配置
 
@@ -113,25 +110,40 @@ mobanreader://fontrepo?url=https%3A%2F%2Fraw.githubusercontent.com%2FJason-wam%2
 
 | 字段 | 说明 |
 | --- | --- |
-| `font` | 字体短标识（文件名前缀） |
+| `font` | 字体短标识 |
 | `fontName` | 展示名称 |
 | `index` | 序号，对应上表 # |
 | `version` | 版本号 |
 | `suffix` | 字体格式：`ttf` / `otf` / `ttc` |
 | `zipSize` | zip 压缩包字节数 |
 | `fileSize` | 解压后字体字节数 |
-| `url` | 字体 zip 相对路径（如 `zip/cejk.zip`），也可写绝对地址 |
-| `previewImageUrl` | 预览图相对路径 |
+| `url` | 字体 zip 相对路径（如 `zip/Yozai-Regular.zip`），也可写绝对地址 |
+| `previewImageUrl` | 预览图相对路径（App 端读取同名 `.svg`，网页端读取 `.png`） |
 | `postScriptName` | PostScript 名，与 `suffix` 拼接作为字体唯一标识 |
-| `Sha256` | 字体文件 SHA256（部分字体为空） |
-| `fontType` | 家族分组：仓耳 / 方正 / 其他 |
-| `fontTypeIndex` | 家族排序 |
+| `Sha256` | 字体文件 SHA256 |
+| `fontType` | 分类：宋体 / 仿宋 / 黑体 / 楷体 / 手写 |
+| `fontTypeIndex` | 分类排序 |
 | `singleTypeIndex` | 单屏排序 |
 | `largeScreenIndex` | 大屏排序 |
 | `largeScreenSingleTypeIndex` | 大屏单屏排序 |
 | `hasTraditionalGlyphs` | 是否含繁体字形（1/0） |
+| `license` | 授权说明（OFL / 公有领域 / 免费商用等） |
 
 相对路径规则：`url`、`previewImageUrl` 均相对于 `font_index.json` 所在目录解析。
+
+## 字体来源
+
+新增字体取自 [中文网字计划（chinese-free-web-font-storage）](https://github.com/KonghaYao/chinese-free-web-font-storage)，该仓库只收录允许免费商用的字体。
+
+- 霞鹜文楷系列：LXGW / 落霞孤鹜，SIL OFL
+- 月星楷：Moon Stars Kai，SIL OFL
+- 悠哉字体：Yozai，SIL OFL
+- 朱雀仿宋：Zhuque Fangsong，SIL OFL
+- 思源宋体 / 思源黑体 / 思源屏显臻宋：Adobe / Google，SIL OFL
+- 汇文明朝体：公有领域
+- 京华老宋体、汇文正楷：作者声明免费商用
+- 寒蝉活仿宋、寒蝉正楷体：SIL OFL / 政府开放资料授权
+- 小赖字体：SIL OFL
 
 ## 目录结构
 
